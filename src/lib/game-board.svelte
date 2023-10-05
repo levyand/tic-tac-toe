@@ -28,15 +28,7 @@
       winner = player;
       return;
     }
-    // win_conditions.forEach(opt => {
-    //   const win = opt.every(index => player_squares.includes(index));
-
-    //   if (win) {
-    //     winner = player;
-    //     return;
-    //   }
-    // });
-
+    
     player = player === 'X' ? 'O' : 'X';
   };
 
