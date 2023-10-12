@@ -1,11 +1,9 @@
 <script lang="ts">
-  import GameBoard from "$lib/game-board.svelte";
+  import Game from '$lib/game.svelte';
 </script>
 
 <svelte:head>
   <title>Tic Tac Toe</title>
 </svelte:head>
 
-<h1>Tic Tac Toe</h1>
-
-<GameBoard />
+<Game />
